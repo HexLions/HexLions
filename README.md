@@ -90,11 +90,51 @@
 <tr>
 <td width="50%">
 
+### 🌡️ RackTemp
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Active   v1.0.0         │
+│  TYPE:   Self-hosted / IoT       │
+│  LANG:   TypeScript / C++        │
+└──────────────────────────────────┘
+```
+
+Self-hosted rack temperature & humidity monitor: ESP32-C3 + SHT31-D sensor, live web dashboard with WiFi signal strength, network sensor discovery, OTA firmware updates, SMTP/Telegram/Graph alerts, scheduled backups, and PRTG/Prometheus/Zabbix integrations. Ships as a Docker container, native Windows service, or native Linux service.
+
+**STACK:** `TypeScript` `React` `Express` `Prisma` `ESP32-C3` `Docker`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/RackTemp)**
+
+</td>
+<td width="50%">
+
+### 🎮 GBP-Downloader
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Active          ⭐ 2    │
+│  TYPE:   Web App / Retrogaming   │
+│  LANG:   HTML / JavaScript       │
+└──────────────────────────────────┘
+```
+
+Single-page web tools for the **Game Boy Printer Emulator** ecosystem — zero install, runs entirely in the browser via the Web Serial API. Receive Game Boy Camera photos from an Arduino over USB, decode 2bpp tile data into native PNG (single or batch ZIP export), and flash the GBP Emulator firmware onto Arduino Nano/Uno using STK500v1 — no `avrdude`, no Arduino IDE. DMG-themed green UI, GPL-3.0 licensed, hosted on GitHub Pages: **[hexlions.github.io/GBP-Downloader →](https://hexlions.github.io/GBP-Downloader/)**
+
+**STACK:** `HTML` `JavaScript` `Web Serial API` `STK500v1` `Arduino`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/GBP-Downloader)**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 🫐 Pi-PaaS
 
 ```
 ┌──────────────────────────────────┐
-│  STATUS: Active          ⭐ 9    │
+│  STATUS: Active          ⭐ 11   │
 │  TYPE:   Open Source             │
 │  LANG:   HTML / JS / Shell       │
 └──────────────────────────────────┘
@@ -113,7 +153,7 @@ The tiniest self-hosted PaaS for Raspberry Pi. Deploy, manage, edit and backup w
 
 ```
 ┌──────────────────────────────────┐
-│  STATUS: Maintained      ⭐ 1    │
+│  STATUS: Maintained      ⭐ 2    │
 │  TYPE:   Klipper Config          │
 │  LANG:   Firmware / Klipper      │
 └──────────────────────────────────┘
@@ -204,27 +244,6 @@ Wearable cosplay RPG badge built on ESP-01S + 0.96" OLED. Generates a personaliz
 **STACK:** `Fusion 360` `STL` `V-slot` `Mechanical Design`
 
 **[📂 VIEW REPOSITORY →](https://github.com/HexLions/Threaded-Insert-Press-Open-source)**
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### 🎮 GBP-Downloader
-
-```
-┌──────────────────────────────────┐
-│  STATUS: Active                  │
-│  TYPE:   Web App / Retrogaming   │
-│  LANG:   HTML / JavaScript       │
-└──────────────────────────────────┘
-```
-
-Single-page web tools for the **Game Boy Printer Emulator** ecosystem — zero install, runs entirely in the browser via the Web Serial API. Receive Game Boy Camera photos from an Arduino over USB, decode 2bpp tile data into native PNG (single or batch ZIP export), and flash the GBP Emulator firmware onto Arduino Nano/Uno using STK500v1 — no `avrdude`, no Arduino IDE. DMG-themed green UI, GPL-3.0 licensed, hosted on GitHub Pages: **[hexlions.github.io/GBP-Downloader →](https://hexlions.github.io/GBP-Downloader/)**
-
-**STACK:** `HTML` `JavaScript` `Web Serial API` `STK500v1` `Arduino`
-
-**[📂 VIEW REPOSITORY →](https://github.com/HexLions/GBP-Downloader)**
 
 </td>
 </tr>
